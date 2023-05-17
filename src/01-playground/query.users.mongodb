@@ -1,0 +1,12 @@
+use('LOGIN');
+
+let Cristian= {
+    firstame : "Crisstian",
+    Lastname : "Duque",
+    tel : "12345",
+    address : " Calle 42 A sur #80f04"
+}
+
+//db.USUARIOS.insertOne(Cristian) 
+db.USUARIOS.remove({ id:"6464302a60c2688d26db3bc1"})
+db.USUARIOS.find({firstame : "Crisstian"})

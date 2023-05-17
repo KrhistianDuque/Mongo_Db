@@ -1,0 +1,11 @@
+use('sample_training');
+//db.zips.find({city: "ALPINE"});
+//db.zips.countDocuments({city: "ALPINE"});
+let Cristian={
+    firs_name:"Cristian",
+    Last_Name:"Duque",
+    tel:"3205795800",
+    address:"calle 42 a sur#80f-04"
+}
+db.zips.findOne("Cristian")
+
